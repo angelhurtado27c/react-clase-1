@@ -9,12 +9,14 @@ function App() {
     <p>{profesion}</p>
   </div>
 
-  return <div className="mi-clase">
+  const componente = <div className="mi-clase">
     <h1>Hola mundo desde React !!!</h1>
     {tarjeta}
     <img src={img_react} className="logo"/>
     {{a:"asdf", b:"asdffd"}["b"]}
   </div>
+
+  return componente
 }
 
 export default App;
