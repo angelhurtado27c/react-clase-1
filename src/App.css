@@ -2,3 +2,16 @@ body {
   background-color: darkslateblue;
   color: beige;
 }
+
+.tarjeta-profesion {
+  background-color: darkcyan;
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+.logo {
+  height: 100px;
+}
